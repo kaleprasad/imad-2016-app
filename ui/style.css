@@ -21,11 +21,11 @@ body {
 }
 
 .container {
-max-width: 880px;
-margin: 0 auto;
-color: #4a4a4a;
-font-family: sans-serif;
-padding-top: 60px;
-padding-left: 20px;
-padding-right: 20px;
+    max-width: 880px;
+    margin: 0 auto;
+    color: #4a4a4a;
+    font-family: sans-serif;
+    padding-top: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
