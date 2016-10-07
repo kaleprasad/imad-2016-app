@@ -103,7 +103,7 @@ app.get('/:articleName', function (req,res){
     // articleName => article-x this facility is given by express framework
     // articles[articleName] => {}  contents of article-x.
     var articleName=req.params.articleName;
-    res.send(createtemplate(articles[articleName]));
+    res.send(createTemplate(articles[articleName]));
 });
 
 
