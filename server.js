@@ -5,21 +5,55 @@ var path = require('path');
 var app = express();
 app.use(morgan('combined'));
 
-var articleone = {
-    title : 'artile-one| prasad v k',
-    heading:'article-one',
-    date : 'oct06,2016',
-    content :`
-        <p>
-               the article one will be served here.
-         </p>
-         <p>
-                prasad vitthal kale 
-                IIT Kanpur.
-                MS EE
-                15204406.
-          </p> `
-    
+var articles={
+    articleone : {
+        title : 'artile-one| prasad v k',
+        heading:'article-one',
+        date : 'oct06,2016',
+        content :`
+            <p>
+                   the article one will be served here.
+             </p>
+             <p>
+                    prasad vitthal kale 
+                    IIT Kanpur.
+                    MS EE
+                    15204406.
+              </p> `
+        
+    },
+    articletwo : {
+        title : 'artile-one| prasad v k',
+        heading:'article-two',
+        date : 'oct07,2016',
+        content :`
+            <p>
+                   the article two will be served here.
+             </p>
+             <p>
+                    prasad vitthal kale 
+                    IIT Kanpur.
+                    MS EE
+                    15204406.
+              </p> `
+        
+    },
+    articlethree : {
+        title : 'artile-three| prasad v k',
+        heading:'article-three',
+        date : 'oct06,2016',
+        content :`
+            <p>
+                   the article three will be served here.
+             </p>
+             <p>
+                    prasad vitthal kale 
+                    IIT Kanpur.
+                    MS EE
+                    15204406.
+              </p> `
+        
+    },
 };
 
 function createTemplate(data) {
