@@ -6,7 +6,7 @@ var app = express();
 app.use(morgan('combined'));
 
 var articles={
-    articleone : {
+    'article-one' : {
         title : 'artile-one| prasad v k',
         heading:'article-one',
         date : 'oct06,2016',
@@ -22,7 +22,7 @@ var articles={
               </p> `
         
     },
-    articletwo : {
+    'article-two' : {
         title : 'artile-one| prasad v k',
         heading:'article-two',
         date : 'oct07,2016',
@@ -38,7 +38,7 @@ var articles={
               </p> `
         
     },
-    articlethree : {
+    'article-three' : {
         title : 'artile-three| prasad v k',
         heading:'article-three',
         date : 'oct06,2016',
@@ -99,17 +99,13 @@ app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
 
-app.get('/article-one', function (req,res){
-    res.send(createTemplate(articleone));
+app.get('/:articleName', function (req,res){
+    // articleName => article-x this facility is given by express framework
+    // articles[articleName] => {}  contents of article-x.
+    var articleName=req.params.articleName;
+    res.send(createtemplate(articles[articleName]));
 });
 
-app.get('/article-two', function (req,res){
-    res.send(createTemplate(articletwo));
-});
-
-app.get('/article-three', function (req,res){
-   res.send(createTemplate(articlethree));
-});
 
 app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
