@@ -5,6 +5,24 @@ var path = require('path');
 var app = express();
 app.use(morgan('combined'));
 
+var articleone = {
+    title : 'artile-one| prasad v k',
+    heading:'article-one',
+    date : 'oct06,2016',
+    content :'
+        <p>
+               the article one will be served here.
+         </p>
+         <p>
+                prasad vitthal kale 
+                IIT Kanpur.
+                MS EE
+                15204406.
+          </p> '
+    
+};
+
+
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
