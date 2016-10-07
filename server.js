@@ -9,7 +9,7 @@ var articleone = {
     title : 'artile-one| prasad v k',
     heading:'article-one',
     date : 'oct06,2016',
-    content :'
+    content :`
         <p>
                the article one will be served here.
          </p>
@@ -18,7 +18,7 @@ var articleone = {
                 IIT Kanpur.
                 MS EE
                 15204406.
-          </p> '
+          </p> `
     
 };
 
