@@ -19,7 +19,7 @@ var articles={
                     devloped by
                   </hr>
                     prasad vitthal kale </br>
-                    IIT Kanpur.<.br>
+                    IIT Kanpur.</br>
                     MS EE  </br>
                     15204406.
                     
