@@ -12,7 +12,11 @@ var articles={
         date : 'oct06,2016',
         content :`
             <p>
-                   the article one will be served here.
+                   the article one will be served here. </br>
+                   the article one will be served here. </br>
+                   the article one will be served here. </br>
+                   the article one will be served here. </br>
+                   the article one will be served here. 
              </p>
              <p>
                   <hr>
