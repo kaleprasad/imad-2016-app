@@ -31,7 +31,7 @@ var articles={
         
     },
     'article-two' : {
-        title : 'artile-one| prasad v k',
+        title : 'artile-two| prasad v k',
         heading:'article-two',
         date : 'oct07,2016',
         content :`
