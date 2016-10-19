@@ -15,6 +15,7 @@ var articles={
                    the article one will be served here.
              </p>
              <p>
+                    devloped by
                     prasad vitthal kale 
                     IIT Kanpur.
                     MS EE
