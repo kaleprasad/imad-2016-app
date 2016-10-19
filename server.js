@@ -15,11 +15,14 @@ var articles={
                    the article one will be served here.
              </p>
              <p>
+                  <hr>
                     devloped by
+                  </hr>
                     prasad vitthal kale 
                     IIT Kanpur.
                     MS EE
                     15204406.
+                    
               </p> `
         
     },
