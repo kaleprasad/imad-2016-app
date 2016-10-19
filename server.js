@@ -16,8 +16,8 @@ var articles={
              </p>
              <p>
                   <hr>
-                    devloped by
-                  </hr>
+                    devloped by </br>
+            
                     prasad vitthal kale </br>
                     IIT Kanpur.</br>
                     MS EE  </br>
